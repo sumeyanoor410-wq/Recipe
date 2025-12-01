@@ -73,8 +73,8 @@ body {
     margin: 0 auto; /* Center the content area */
     gap: 40px; /* Space between the image and the text */
 }
-.steps-list {
-    line-height: 1.8;
+#shawarrma{
+    transition: 0.5s;
 }
 .shawarma-container img{
     max-width: 70%; /* Makes the image responsive within its container */
@@ -94,6 +94,9 @@ body {
 .cokie {
     flex: 1; /* Allows the image container to take up proportional space */
     min-width: 300px; /* Prevents image from getting too small */
+}
+#cookie{
+    transition: .5s;
 }
 .cokie img {
     max-width: 100%; /* Makes the image responsive within its container */
@@ -119,6 +122,9 @@ body {
 .past1 {
     flex: 1; /* Allows the image container to take up proportional space */
     min-width: 300px; /* Prevents image from getting too small */
+}
+#pastas{
+    transition: 0.5s;
 }
 
 
@@ -147,6 +153,9 @@ body {
 .pizza1 {
     flex: 1; /* Allows the image container to take up proportional space */
     min-width: 300px; /* Prevents image from getting too small */
+}
+#piza{
+    transition: 0.5s;
 }
 .pizza img{
     max-width: 70%; /* Makes the image responsive within its container */
@@ -181,7 +190,9 @@ body {
     display: block; /* Removes any extra space below the image */
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
-
+#brown{
+    transition: 0.5s;
+}
 .hero-brownie {
     flex: 1; /* Allows the image container to take up proportional space */
     min-width: 70px; /* Prevents image from getting too small */
@@ -204,6 +215,9 @@ body {
     display: block; /* Removes any extra space below the image */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
+#baryan{
+    transition: 0.5s;
+}
 
 .hero-biryani {
     flex: 1; /* Allows the image container to take up proportional space */
@@ -215,6 +229,7 @@ body {
     display: flex; /* Use Flexbox to align children horizontally */
     align-items: center; /* Vertically align items in the middle */
     padding: 40px;
+    justify-content: center;
     max-width: 1200px; /* Limit the width of the content area */
     margin: 0 auto; /* Center the content area */
     gap: 40px; /* Space between the image and the text */
@@ -233,3 +248,8 @@ body {
     flex: 1; /* Allows the image container to take up proportional space */
     min-width: 70px; /* Prevents image from getting too small */
 }
+#pan{
+    transition:0.5s ;
+}
+
+
